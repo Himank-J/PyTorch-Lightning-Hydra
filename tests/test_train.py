@@ -2,8 +2,6 @@ import pytest
 import hydra
 from pathlib import Path
 import rootutils
-import lightning as L
-from src.train import train, test, instantiate_callbacks, instantiate_loggers, main
 
 # Setup root directory
 root = rootutils.setup_root(__file__, indicator=".project-root", pythonpath=True)
